@@ -1,3 +1,4 @@
+import BotonInicio from "../../components/BotonInicio";
 import "./Home.css";
 
 export default function Home (){
@@ -10,9 +11,12 @@ export default function Home (){
             <p className="text-center">In this website you can know information of the characters of this animated series.</p>
             <p className="text-center">Also you can filter for diferent types of properties to find the character that you are looking for or send us a massage for any concern o sugestion.</p>
             <h2 className="text-center p-3">Lets go!</h2>
-                  
+            <div className="text-center">
+            <BotonInicio nombreBoton='Characters'/>
+            <BotonInicio nombreBoton="Contact"/> 
+            </div>
         </header>
-
+    
     </div>
     )
 }

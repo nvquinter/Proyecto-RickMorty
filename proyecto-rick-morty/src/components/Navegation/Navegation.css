@@ -1,0 +1,29 @@
+.bg-blue{
+    background-color: #344D67;
+
+}
+header{
+    padding: 50px;
+    position: sticky;
+    top:0px; 
+    z-index: 1; 
+ 
+}
+.navbar-brand{
+    color: #6eccaf;
+}
+.navbar-brand:hover{
+    color: #6ECCAF;
+    cursor: default;
+}
+.navbar-toggler{
+   border:none;
+}
+.cursor-p{
+    cursor: pointer !important;
+}
+
+.active{
+    color: #344d67;
+    background-color: #6eccaf;
+}
