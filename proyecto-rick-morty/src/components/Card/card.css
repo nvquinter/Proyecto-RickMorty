@@ -1,0 +1,12 @@
+.cardSection{
+ width: 20rem;
+ justify-content: center;
+ padding: 5px;
+ background-color: #2e4863;
+ color: #6Eccaf;
+}
+
+.botonCard{
+    background-color:#6Eccaf ;
+    color: #344D67;
+}
