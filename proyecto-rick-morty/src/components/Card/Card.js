@@ -2,11 +2,11 @@ import "./card.css";
 
 export default function Card({name,image}) {
     return(
-       <div className="cardSection">
+       <div className="card m-2 p-2  d-flex aling-items-center">
             <img  src={image} alt="Rick & Morty"/>
-            <h3 className="text-center">{name}</h3>
-            <div className="text-end">
-                <button className="btn btn-success w-30 botonCard ">Know More...</button>
+            <h3 className=" size-name text-center name-card">{name}</h3>
+            <div className="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button className="botonCard btn btn-success p-2">Know More..</button>
             </div>
         </div>
     )

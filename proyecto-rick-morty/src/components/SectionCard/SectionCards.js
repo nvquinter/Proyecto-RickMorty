@@ -1,6 +1,6 @@
 import Card from "../Card/Card";
 
-// import "./sectionCards.css"
+import "./SectionCards.css";
 
 export default function SectionCards(){
     //conseguir la informacion(array) -> API Rick y Morty (fetch) 
@@ -39,7 +39,7 @@ export default function SectionCards(){
 
 
     return(
-        <section>
+        <section className="row p-2 cards-section">
             <button onClick={traerPersonajes}>Cargar Personajes</button>
             {
                 listaPersonajes.map((personaje)=>{
