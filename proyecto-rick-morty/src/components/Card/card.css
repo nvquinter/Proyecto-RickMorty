@@ -1,19 +1,8 @@
-/* .cardSection{
- width: 20rem;
- justify-content: center;
- padding: 5px;
- background-color: #2e4863;
- color: #6Eccaf;
-} */
-
-.botonCard{
-    background-color:#6Eccaf ;
-    color: #344D67;
-}
 .card{
     width: fit-content !important;
     background-color: #223142!important;
     color:whitesmoke;
+    margin: 5px;
     padding: 5px;
     width: 20rem;
 }
@@ -26,19 +15,8 @@
 }
 .size-name{
     width: 300px;
-
 }
-/* .list-group{
-    width: 350px!important;
+.botonCard{
+    background-color:#6Eccaf ;
+    color: #344D67;
 }
-.list-group-item{
-    background-color: transparent !important;
-    color: whitesmoke !important;
-    font-size: 1.2rem;
-    
-}
-.list-group-item:hover{
-    background-color: #6ECCAF !important;
-    color: #344D67!important;
-    cursor: pointer;
-} */
