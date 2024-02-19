@@ -1,4 +1,34 @@
-ul li{
+
+/* ul li{
     background-color: #223142 !important;
-   color:whitesmoke !important;
+    color:whitesmoke !important;
+   
+} */
+font{
+    vertical-align: inherit;
+}
+
+.list-group{
+    width: 350px!important;
+    background-color: #223142 !important;   
+}
+.list-group-item{
+    background-color: transparent !important;
+    color: whitesmoke !important;
+    border-color: #223142 !important;
+    font-size: 1.2rem;
+}
+.list-group-item:hover{
+    background-color: #6ECCAF !important;
+    color: #344D67!important;
+    cursor: pointer;
+}
+.botones{
+    background-color:#344D67!important;
+}
+.botones:hover, .boton:hover, .btn-active{
+    background-color: #6ECCAF !important;
+    color: #344D67!important;
+    width: fit-content;
+    
 }

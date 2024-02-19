@@ -23,6 +23,6 @@ header{
 }
 
 .active{
-    color: #344d67;
-    background-color: #6eccaf;
+    color: #344d67 !important;
+    background-color: #6eccaf !important;
 }

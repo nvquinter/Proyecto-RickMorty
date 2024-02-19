@@ -27,7 +27,7 @@ export default function SectionCards(){
         <section className="row cards-section">
             {
                 listaPersonajes.map((personaje)=>{
-                    return <Card key={personaje.id} name={personaje.name} image={personaje.image}/>
+                    return <Card key={personaje.id} infoPersonaje={personaje}/>
                 })
             }   
         </section>

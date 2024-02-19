@@ -1,17 +1,57 @@
 
 import "./DescriptionCard.css";
 
-export default function DescriptionCard (){
+export default function DescriptionCard ({status,especie,genero,origen, setHide}){
+
     return(
-        <div className="d-flex p-5 flex-column align-items-center more-info-section description">
-            <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button className="btn btn-active p-2">X</button>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item p-3 d-flex flex-column">Estado del Personaje</li>
-                <li class="list-group-item p-3 d-flex flex-column">Especie</li>
-                <li class="list-group-item p-3 d-flex flex-column">Origen</li>
-                <li class="list-group-item p-3 d-flex flex-column">Genero</li>
+        <div className="d-flex p-3 flex-column align-items-center more-info-section">
+            <button className=" botones botonbtn btn-active d-flex align-self-end m-2 btn-x-md" onClick={()=>setHide(true)}>
+                <font>
+			        <font>X</font>
+                </font> 
+            </button>
+            
+            <ul className="list-group "> 
+                <li className="list-group-item p-3 d-flex flex-column">
+				    <span className="fw-bold">
+					    <font >
+						    <font >Character Status </font>
+					    </font>
+                        <font >
+                            <font>{status}</font>
+					    </font>
+				    </span>
+				</li>
+                <li className="list-group-item p-3 d-flex flex-column">
+					<font>
+				        <font>Especies</font>
+					</font>
+					<span className="fw-bold">
+					    <font> 
+					        <font>{especie}</font>
+					    </font>
+					</span> 
+				</li>
+                <li className="list-group-item p-3 d-flex flex-column ">
+				    <font>
+					    <font>Origin</font>
+				    </font>
+				    <span className="fw-bold">
+				        <font>
+				            <font>{origen}</font>
+				        </font>
+				    </span> 
+				</li>
+                <li className="list-group-item p-3 d-flex flex-column ">
+                    <font>
+                        <font>Gender</font>
+                    </font>
+                    <span className="fw-bold">
+                        <font>
+                            <font >{genero}</font>
+                        </font>
+                    </span> 
+                </li>
             </ul>
         </div>
     )
