@@ -1,17 +1,18 @@
-.cards-section{
-    justify-content: center; 
-}
-.section-filters{
+
+
+.form-switch{
     color:#6ECCAF ;
+    background-color: #344D67;
+    border-radius: 8px;
 }
-.collapse:not(.show) {
-    display: flex;
+.form-switch .form-check-input{
+    background-color: #b1f0dc ;
 }
-.btn-filters{
-    display: none;
+.form-switch .form-check-input:checked{
+    background-color: #223142; 
 }
-.filters-area {
-    justify-content: start;
+.form-check-input:checked+ .form-check-label{
+    color: whitesmoke;
 }
 @media(max-width:800px){
     h2{
