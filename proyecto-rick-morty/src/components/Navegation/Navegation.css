@@ -9,6 +9,10 @@ header{
  
 }
 .navbar-brand{
+    padding: 40px 80px!important;
+    
+}
+.navbar-brand{
     color: #6eccaf;
 }
 .navbar-brand:hover{

@@ -11,3 +11,31 @@ body {
 *{
   font-family: 'Raleway', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Raleway:wght@100;500;600;900&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+.botones{
+    background-color:#344D67!important;
+}
+.botones:hover, .boton:hover, .btn-active{
+    background-color: #6ECCAF !important;
+    color: #344D67!important;
+    width: fit-content;
+    
+}
+a{
+    color: #6ECCAF !important;
+}
+
+
+@media(max-width:500px){
+    .navbar-brand{
+        padding: 0px!important;
+        margin-bottom: 0px;
+    }
+}
