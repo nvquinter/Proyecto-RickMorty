@@ -6,14 +6,17 @@ header{
     position: sticky;
     top:0px; 
     z-index: 1; 
- 
-}
+
+ }
+
 .navbar-brand{
     padding: 40px 80px!important;
-    
-}
-.navbar-brand{
     color: #6eccaf;
+    cursor: default;
+}
+ .navbar-brand{
+    color: #6eccaf;
+
 }
 .navbar-brand:hover{
     color: #6ECCAF;
@@ -24,9 +27,9 @@ header{
 }
 .cursor-p{
     cursor: pointer !important;
-}
+} 
 
-.active{
+/* .btn-active{
     color: #344d67 !important;
     background-color: #6eccaf !important;
-}
+} */

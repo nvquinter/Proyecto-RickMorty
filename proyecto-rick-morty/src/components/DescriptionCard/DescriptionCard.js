@@ -5,7 +5,7 @@ export default function DescriptionCard ({status,especie,genero,origen, setHide}
 
     return(
         <div className="d-flex p-3 flex-column align-items-center more-info-section">
-            <button className=" botones botonbtn btn-active d-flex align-self-end m-2 btn-x-md" onClick={()=>setHide(true)}>
+            <button className=" botones boton btn btn-active d-flex align-self-end m-2 btn-x-md" onClick={()=>setHide(true)}>
                 <font>
 			        <font>X</font>
                 </font> 

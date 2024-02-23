@@ -13,8 +13,8 @@ export default function Home (){
             are looking for or send us a massage for any concern o sugestion.</p>
             <h2 className="text-center p-3">Lets go!</h2>
             <div className="text-center ">
-                <BotonInicio className="botones" nombreBoton='Characters'/>
-                <BotonInicio className="botones" nombreBoton="Contact"/> 
+                <BotonInicio className="botones" nombreBoton='Characters' pasaje='/characters'/>
+                <BotonInicio className="botones" nombreBoton="Contact" pasaje='/contact'/> 
             </div>
         </div>
     

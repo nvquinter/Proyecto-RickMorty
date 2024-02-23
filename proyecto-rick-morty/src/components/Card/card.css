@@ -20,3 +20,14 @@
     background-color:#6Eccaf ;
     color: #344D67;
 }
+@media(max-width:500px){
+    .card{
+        flex-direction: column!important;
+    }
+    .btn-x-md{
+        visibility: hidden;
+    }
+    .btn-x-sm{
+        display: block!important;
+    }
+}

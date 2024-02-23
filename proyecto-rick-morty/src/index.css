@@ -1,23 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;900&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
 body {
-  /* padding: 20px; */
   margin: 0;
   padding: 0;
   background-image: url("./rickymorty.jpg");
   background-size: cover;
   background-attachment: fixed;
-  
 }
-*{
-  font-family: 'Raleway', sans-serif;
-}
-@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Raleway:wght@100;500;600;900&display=swap');
-*{
-    font-family: 'Raleway', sans-serif;
-
-}
-
-
 
 .botones{
     background-color:#344D67!important;
@@ -25,12 +17,12 @@ body {
 .botones:hover, .boton:hover, .btn-active{
     background-color: #6ECCAF !important;
     color: #344D67!important;
-    width: fit-content;
-    
+    width: fit-content;  
 }
 a{
+    text-decoration: none;
     color: #6ECCAF !important;
-}
+} 
 
 
 @media(max-width:500px){
