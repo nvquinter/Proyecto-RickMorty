@@ -17,7 +17,6 @@ export default function Home (){
                 <BotonInicio className="botones" nombreBoton="Contact" pasaje='/contact'/> 
             </div>
         </div>
-    
     </header>
     )
 }

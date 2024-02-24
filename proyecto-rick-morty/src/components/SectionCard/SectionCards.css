@@ -1,31 +1,33 @@
 .cards-section{
     justify-content: center; 
 }
+
 .section-filters{
     color:#6ECCAF ;
 }
+
 .collapse:not(.show) {
     display: flex;
 }
+
 .btn-filters{
     display: none;
 }
+
 .filters-area {
     justify-content: start;
 }
+
 @media(max-width:800px){
     h2{
         color:#6ECCAF ;
     }
-
     .section-filters{
         align-items: center;
         flex-direction: column;
-       
     }
     .filters-area >h2{
         text-align: center; 
-        
     }
     .filters-area{
         width: 90%; 
@@ -44,5 +46,4 @@
     .btn-filters{
         display: block;
     }
-
 }

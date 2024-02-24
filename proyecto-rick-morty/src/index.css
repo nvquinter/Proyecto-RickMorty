@@ -14,16 +14,17 @@ body {
 .botones{
     background-color:#344D67!important;
 }
+
 .botones:hover, .boton:hover, .btn-active{
     background-color: #6ECCAF !important;
     color: #344D67!important;
     width: fit-content;  
 }
+
 a{
     text-decoration: none;
     color: #6ECCAF !important;
 } 
-
 
 @media(max-width:500px){
     .navbar-brand{

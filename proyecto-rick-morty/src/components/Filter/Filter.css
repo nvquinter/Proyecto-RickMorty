@@ -3,28 +3,29 @@
     background-color: #344D67;
     border-radius: 8px;
 }
+
 .form-switch .form-check-input{
     background-color: #b1f0dc ;
 }
+
 .form-switch .form-check-input:checked{
     background-color: #223142; 
 }
+
 .form-check-input:checked+ .form-check-label{
     color: whitesmoke;
 }
+
 @media(max-width:800px){
     h2{
         color:#6ECCAF ;
     }
-
     .section-filters{
         align-items: center;
-        flex-direction: column;
-       
+        flex-direction: column; 
     }
     .filters-area >h2{
-        text-align: center; 
-        
+        text-align: center;   
     }
     .filters-area{
         width: 90%; 
@@ -43,5 +44,4 @@
     .btn-filters{
         display: block;
     }
-
 }

@@ -22,12 +22,7 @@ textarea{
          width: 100%!important; 
     } 
     .main-contact-div>h1,.send{
-        font-size: 1em ;
+        font-size: 2em ;
         text-align: center;
     }
-    .main-contact-div>p{
-        font-size: 5px;
-        text-align: center;
-    }
-
 }

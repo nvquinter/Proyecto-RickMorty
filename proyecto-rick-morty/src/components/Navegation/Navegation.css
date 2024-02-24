@@ -1,35 +1,35 @@
 .bg-blue{
     background-color: #344D67;
 }
+
 header{
     padding: 35px;
     position: sticky;
     top:0px; 
     z-index: 1; 
-
- }
+}
 
 .navbar-brand{
     padding: 40px 80px!important;
     color: #6eccaf;
     cursor: default;
 }
- .navbar-brand{
+
+.navbar-brand{
     color: #6eccaf;
 
 }
+
 .navbar-brand:hover{
     color: #6ECCAF;
     cursor: default;
 }
+
 .navbar-toggler{
    border:none;
 }
+
 .cursor-p{
     cursor: pointer !important;
 } 
 
-/* .btn-active{
-    color: #344d67 !important;
-    background-color: #6eccaf !important;
-} */
