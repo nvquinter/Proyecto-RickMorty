@@ -1,4 +1,3 @@
-
 import "./DescriptionCard.css";
 
 export default function DescriptionCard ({status,especie,genero,origen, setHide}){

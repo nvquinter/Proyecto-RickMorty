@@ -18,6 +18,12 @@
     justify-content: start;
 }
 
+.alert{
+    background-color: #6ECCAF ;
+    color: #223142;
+    width: 100%;
+}
+
 @media(max-width:800px){
     h2{
         color:#6ECCAF ;

@@ -3,14 +3,14 @@
 }
 
 header{
-    padding: 35px;
+    padding: 30px;
     position: sticky;
     top:0px; 
     z-index: 1; 
 }
 
 .navbar-brand{
-    padding: 40px 80px!important;
+    padding: 20px 60px!important;
     color: #6eccaf;
     cursor: default;
 }

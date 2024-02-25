@@ -22,6 +22,6 @@ export default function Filters({filterCharacter}) {
                 </form>
             </section>
         </Fragment>
-       
+
     )
 }
