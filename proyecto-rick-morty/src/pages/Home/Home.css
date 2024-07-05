@@ -1,12 +1,13 @@
 .containerHeader{
     height: 100vh;
-    padding: 20px;
+    padding: 80px;
 }
 
 .container {
     background-color: #ffffffe6;
-    height: 600px;
-    width: 600px;
+    height: 800px;
+    width: 800px;
+    font-size: 25px ;
     color: #344d67;
 }
 
