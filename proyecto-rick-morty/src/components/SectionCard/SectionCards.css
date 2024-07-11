@@ -1,10 +1,14 @@
 .cards-section{
     justify-content: center; 
-    padding: 80px;
-    margin: 80px;
+    padding: 20px;
+    margin: 20px;
 }
 
-
+.section{
+ text-align: center;
+ background-color: aquamarine;
+ padding: 15px;
+}
 .collapse:not(.show) {
     display: flex;
 }

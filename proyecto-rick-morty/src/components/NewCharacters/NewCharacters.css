@@ -1,0 +1,22 @@
+
+.form{
+    background-color: #223142!important;
+ 
+    width: 500px;
+    margin: 5px;
+    padding: 5px;  
+
+}
+.h1{
+    color: #6eccaf;
+  
+}
+
+.label{
+    color: #6eccaf;
+   font-size: 20px;
+}
+
+button{
+    text-align: center;
+}

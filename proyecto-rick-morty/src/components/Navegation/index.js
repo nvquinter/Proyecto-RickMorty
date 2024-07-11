@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Navegation.css";
+import BuscarCharacter from "../BuscarCharacters/BuscarCharacter";
 
 export default function Navegation({hoja}){
     return(
@@ -21,6 +22,7 @@ export default function Navegation({hoja}){
                             </li>
                         </ul>
                     </div>
+                     <BuscarCharacter/> 
                 </div>
             </nav>
         </header>

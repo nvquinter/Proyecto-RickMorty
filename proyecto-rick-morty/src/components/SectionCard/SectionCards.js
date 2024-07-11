@@ -1,17 +1,15 @@
 import {Fragment} from 'react';
-import Card from "../Card/Card";
 import "./SectionCards.css";
-
+import NewCharacters from '../NewCharacters/NewCharacters'; 
+import DescriptionCard from '../DescriptionCard/DescriptionCard';
 import { useEffect, useState } from "react";
 
 export default function SectionCards(){
 
         let [listaPersonajes, setlistaPersonajes]= useState('')
-
-    const traerCharacters= async()=>{
+        const traerCharacters= async()=>{
         await fetch("http://localhost:4000/api/characters")
         .then((resp)=>{return resp.json()})
-
         .then((respuesta)=> setlistaPersonajes(respuesta.data))
         .catch((err)=>{console.log("no se logro obtener la info:" +err)})
 
@@ -22,19 +20,23 @@ export default function SectionCards(){
 
 return (  
         <Fragment>
-            <main className="container-fluid ">
-                <section className="row cards-section">
-                    {listaPersonajes.length !== 0 ?
-                        listaPersonajes.map((personaje)=>{
-                        return <Card key={personaje.id} infoPersonaje={personaje}/>})
-                        :
-                        <div> Characters No found </div>
-                    }
+            <main className="container-text">
+         
+                <section className='row cards-section'>
+                    <NewCharacters /> 
                 </section>
+                <section className="row cards-section">
+                    <h1 className='section  container-sm'>PERSONAJES RICK & MORTY</h1>
+                    {   listaPersonajes.length !== 0 ?(
+                            listaPersonajes.map((personaje)=>{
+                            return<DescriptionCard id={personaje.id} nombre={personaje.name} status={personaje.status} especie={personaje.species} 
+                            genero={personaje.gender} origen={personaje.origin}/>})
+                        ):(<div> Characters No found </div>)
+                    }
+                </section> 
             </main>
         </Fragment>)
 };
-
 
 
 
